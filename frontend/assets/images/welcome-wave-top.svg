@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="rose" x1="0" x2="1"><stop stop-color="#F5A7E5"/><stop offset="1" stop-color="#BBA0F4"/></linearGradient>
+    <linearGradient id="sky" x1="0" x2="1"><stop stop-color="#D6D5FF"/><stop offset="1" stop-color="#83DCEC"/></linearGradient>
+  </defs>
+  <path d="M0 0H550C355 8 262 180 0 190Z" fill="url(#rose)" opacity=".23"/>
+  <path d="M0 0H420C270 18 180 132 0 145Z" fill="url(#rose)" opacity=".7"/>
+  <path d="M480 0H1000V175C915 87 870 83 780 85C654 88 628 6 480 0Z" fill="url(#sky)" opacity=".35"/>
+  <path d="M560 0H1000V100C901 54 859 140 744 61C671 11 641 0 560 0Z" fill="url(#sky)" opacity=".7"/>
+</svg>

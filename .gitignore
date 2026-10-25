@@ -1,0 +1,69 @@
+# Private environment configuration (keep safe templates versioned)
+.env
+.env.*
+!.env.example
+
+# JavaScript / Expo generated dependencies, state and builds
+node_modules/
+.expo/
+.metro-cache/
+.metro-health-check*
+dist/
+web-build/
+*.tsbuildinfo
+
+# Python virtual environments, bytecode and tool caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Other generated caches, logs and temporary files
+.cache/
+.eslintcache
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS metadata
+.local-backups/
+backend/local_uploads/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Private signing keys and certificates
+*.pem
+*.key
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pfx
+*.mobileprovision
+
+# Verification builds, additional caches, temporary directories and backups
+frontend/dist-verification/
+coverage/
+.parcel-cache/
+.turbo/
+logs/
+tmp/
+temp/
+cache/
+*.bak
+*.old
